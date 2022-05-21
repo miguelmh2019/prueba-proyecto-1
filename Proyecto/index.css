@@ -66,9 +66,8 @@ footer {
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;       
     border: 0.3rem solid black;
+    display: flex;       
     position: relative;
     top: 25rem;        
 }
