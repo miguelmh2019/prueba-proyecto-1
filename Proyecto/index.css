@@ -37,8 +37,8 @@ footer {
 
 .logo {    
     width: 16.0rem;
-    height: 12.6rem;
-    margin-top:0.2rem;       
+    height: 12.6rem;    
+    margin-top:0.2rem;     
 }
 
 .page-title {
@@ -61,7 +61,7 @@ footer {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.75rem;    
     color: whitesmoke;
-    padding: 0 0.5rem;
+    padding: 0 0.3rem;
     text-decoration: none;      
 }
 
@@ -70,8 +70,7 @@ section {
     flex-wrap: wrap;       
     border: 0.3rem solid black;
     position: relative;
-    top: 25rem;
-    left: 2rem;    
+    top: 25rem;        
 }
 
 .box {
@@ -102,5 +101,4 @@ section {
 
 .box6 {
     background-color: brown;
-}
 }
