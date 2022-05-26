@@ -110,13 +110,13 @@ nav a {
     color: red;           
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .logo {
         width: 10.3rem;
         height: 8.1rem;
     }
     .page-title {
-        font-size: 2.25rem;
+        font-size: 2.40rem;
         font-weight: bold;
     }
 }
