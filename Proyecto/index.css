@@ -25,8 +25,7 @@ header {
     padding-top: 0.5rem;      
     background: linear-gradient(70deg, red, whitesmoke);    
     position: fixed;
-    z-index: 2;
-    display: flex;               
+    z-index: 2;                   
 }
 
 main {
@@ -64,13 +63,17 @@ footer {
     display: inline-block;
 } */
 
+nav {
+    display: flex;
+}
+
 nav a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.25rem;
     font-weight: bold;  
     color: whitesmoke;
     padding: 0 0.3rem;
-    text-decoration: none;          
+    text-decoration: none;              
 }
 
 .game {    
