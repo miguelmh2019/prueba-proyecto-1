@@ -55,21 +55,21 @@ footer {
     display: block;
 }
 
-.main-nav {       
+/* .main-nav {       
     text-align: center;      
 }
 
 .main-nav-item {
     display: inline-block;
-}
+} */
 
-.main-nav-item a {
+nav a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.45rem;
     font-weight: bold;  
     color: whitesmoke;
     padding: 0 0.3rem;
-    text-decoration: none;      
+    text-decoration: none;          
 }
 
 .game {    
