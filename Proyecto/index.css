@@ -117,5 +117,6 @@ nav a {
     }
     .page-title {
         font-size: 1.96rem;
+        font-weight: bold;
     }
 }
