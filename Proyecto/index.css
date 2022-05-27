@@ -119,16 +119,20 @@ nav a {
 }
 
 @media screen and (max-width: 800px) {
-    .logo {
-        width: 10.3rem;
-        height: 8.1rem;
-    }
-    
     header {
         height: 14.7rem;
     }
 
     footer {
         height: 10.26rem;
+    }
+
+    .logo {
+        width: 10.3rem;
+        height: 8.1rem;
+    }
+
+    .page-title {
+        font-size: 2.65rem;
     }
 }
