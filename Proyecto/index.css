@@ -118,18 +118,29 @@ nav a {
     color: red;           
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 285px) {
     
     header {
         height: 15rem;
+    }
+
+    footer {
+        height: 10.26rem;
+    }
+
+    .logo {
+        width: 10.3rem;
+        height: 8.1rem;
     }
     
     .page-title {
         font-size: 2.25rem;
     }
+
+
 }
 
-@media screen and (min-width: 251px) {
+@media screen and (min-width: 286px) {
     header {
         height: 14.7rem;
     }
