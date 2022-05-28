@@ -35,7 +35,7 @@
         /* z-index: 1; */
         display: flex;
         align-items: center;
-        justify-content: center;  
+        justify-content: center;         
     }
     
     footer {
@@ -84,7 +84,7 @@
         justify-content: center;      
         /* position: relative;
         top: 25rem; */
-        /* padding: 0 1rem; */             
+        /* padding: 0 1rem; */          
     }
     
     .game-item-1 {
@@ -137,7 +137,7 @@
         }   
     }
     
-    @media screen and (min-width: 301px) {
+    @media screen and (max-width: 800px) {
         header {
             height: 14.7rem;
         }
