@@ -30,7 +30,7 @@
     
     main {
         width: 100%;
-        height: 57rem;
+        height: 65rem;
         background-color: whitesmoke; 
         /* z-index: 1; */
         display: flex;
@@ -116,32 +116,25 @@
         font-size: 1.12rem;   
         font-weight: bold;
         color: red;           
-    }
-
-    .a {
-        display: flex;
-    }
+    } 
     
-        @media screen and (max-width: 300px) {
-        
+    @media screen and (max-width: 300px) {        
         header {
             height: 15rem;
         }
-    
+        
         footer {
             height: 10.26rem;
         }
-    
+        
         .logo {
             width: 10.3rem;
             height: 8.1rem;
         }
-        
+            
         .page-title {
             font-size: 1.85rem;
-        }
-    
-    
+        }   
     }
     
     @media screen and (min-width: 301px) {
@@ -162,3 +155,21 @@
             font-size: 2.70rem;
         }    
     }
+
+    /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement */
+
+/* .sticky + .content {
+
+    padding-top: 40rem;
+    padding-bottom: 10rem;
+  
+  } */
+  
+ 

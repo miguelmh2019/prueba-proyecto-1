@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videojuego | Inicio</title>
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./videojuego.css">
+    <link rel="stylesheet" href="./videojuego.css">    
 </head>
 <body>
-    <header>        
+    <header id="myHeader">        
             <section class="wrapper">
                 <div class="a">
                     <h1 class="page-title">Sitio Web Didáctico</h1>
@@ -23,7 +23,7 @@
                     <a href="./contacto.html">Contacto|</a>          
                 </nav>              
             </section>    
-    </header>   
+    </header>  
     <main>
         <section class="game">
             <div class="game-item-1">
@@ -47,6 +47,36 @@
             </div>                        
         </section>       
     </main>
+    <script>
+        window.onscroll = function() {myFunction()};
+    
+    
+    // Get the header
+    
+    var header = document.getElementById("myHeader");
+    
+    
+    // Get the offset position of the navbar
+    
+    var sticky = header.offsetTop;
+    
+    
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    
+    function myFunction() {
+    
+      if (window.pageYOffset > sticky) {
+    
+        header.classList.add("sticky");
+    
+      } else {
+    
+        header.classList.remove("sticky");
+    
+      }
+    
+    }
+    </script>
     <footer>
 
     </footer>    
