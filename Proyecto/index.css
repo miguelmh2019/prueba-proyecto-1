@@ -130,11 +130,7 @@
         color: red;           
     } 
     
-    @media screen and (max-width: 345px) {        
-        header {
-            height: 15rem;
-        }
-        
+    @media screen and (max-width: 345px) {       
         footer {
             height: 10.26rem;
         }
