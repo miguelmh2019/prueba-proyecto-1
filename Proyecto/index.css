@@ -130,7 +130,10 @@
         color: red;           
     } 
     
-    @media screen and (max-width: 345px) {       
+    @media screen and (max-width: 300px) {       
+        header {
+            height: 12.4rem;
+        }
         footer {
             height: 10.26rem;
         }
@@ -149,7 +152,7 @@
         }
     }
     
-    @media screen and (min-width: 346px) {
+    @media screen and (min-width: 301px) {
         header {
             height: 14.7rem;
         }
