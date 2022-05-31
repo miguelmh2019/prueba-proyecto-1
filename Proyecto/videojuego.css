@@ -44,3 +44,35 @@
 	justify-content: center;
 	align-items: center;
 }
+
+@media screen and (max-width: 300px) {       
+	.container {
+		max-width: 250px;		
+	}
+
+	.izquierdo{
+		width: 70%;
+		font-size: 40px;		
+	}
+	
+	.derecha{		
+		width: 30%;
+		height: 80%;	   
+	}
+}
+
+@media screen and (min-width: 301px) and (max-width: 800px) {
+	.container {
+		max-width: 560px;		
+	}
+
+	.izquierdo{
+		width: 70%;
+		font-size: 56px;		
+	}
+	
+	.derecha{		
+		width: 30%;
+		height: 80%;	   
+	}   
+}
