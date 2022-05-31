@@ -131,7 +131,7 @@
         }
 
         footer {
-            height: 9.45rem;
+            height: 9.35rem;
         }
         
         .logo {
@@ -150,12 +150,12 @@
     
     @media screen and (min-width: 301px) {
         header {
-            height: 14.6rem;
+            height: 14.5rem;
             padding-top: 0.42rem;
         }
     
         footer {
-            height: 10.26rem;
+            height: 10.76rem;
         }
     
         .logo {
