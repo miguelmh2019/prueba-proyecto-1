@@ -125,10 +125,11 @@
     @media screen and (max-width: 300px) {       
         header {
             height: 13.2rem;
+            padding-top: .33rem;
         }        
        
         footer {
-            height: 9.21rem;
+            height: 9.32rem;
         }
         
         .logo {
@@ -147,11 +148,12 @@
     
     @media screen and (min-width: 301px) {
         header {
-            height: 14.7rem;
+            height: 14.4rem;
+            padding-top: 0.42rem;
         }        
     
         footer {
-            height: 10.26rem;
+            height: 10.76rem;
         }
     
         .logo {
