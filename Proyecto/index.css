@@ -165,7 +165,21 @@
     
         .page-title {
             font-size: 2.70rem;
-        }    
+        }
+
+        .game-item-1 {
+            border: 0.21rem dashed red; 
+            height:17.92rem;
+            border-radius: 14px;    
+            padding: 0.35rem;                
+        }
+        
+        .game-item-2 {
+            border: 0.21rem dashed red;            
+            height:31.92rem;
+            border-radius: 14px; 
+            margin-left: 0.7rem;                    
+        }
     }
 
 
