@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 301px) and (max-width: 800px) {
 	.container {
-		width: 200px;
+		width: 150px;
 		border: 1px solid #000;
 		border-radius: 10px;
 		padding: 10px 0;		
@@ -80,7 +80,7 @@
 	}
 	
 	.msj{
-		font-size: 18px;
+		font-size: 15px;
 		height: 30px;
 	}
 	
