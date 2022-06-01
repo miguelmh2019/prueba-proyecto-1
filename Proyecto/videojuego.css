@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 301px) and (max-width: 800px) {
 	.container {
-		max-width: 560px;		
+		max-width: 200px;		
 	}
 
 	.izquierdo{
@@ -74,5 +74,18 @@
 	.derecha{		
 		width: 30%;
 		height: 80%;	   
-	}   
+	}
+	
+	.msj{
+		font-size: 28px;
+		height: 35px;
+	}
+	
+	.opcion{    
+		width: 56px;
+		height: 56px;
+		border: 0.7px solid  #000;
+		font-size: 35px;
+		margin-bottom: 14px;
+	}
 }
