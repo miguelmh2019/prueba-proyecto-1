@@ -176,9 +176,13 @@
         
         .game-item-2 {
             border: 0.21rem dashed red;            
-            height:31.92rem;
+            height:31.22rem;
             border-radius: 14px; 
             margin-left: 0.7rem;                    
+        }
+
+        .game-description {
+            font-size: 0.784rem;
         }
     }
 
