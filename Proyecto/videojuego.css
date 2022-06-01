@@ -71,24 +71,24 @@
 
 	.izquierdo{
 		width: 70%;
-		font-size: 30px;		
+		font-size: 20px;		
 	}
 	
 	.derecha{		
 		width: 30%;
-		height: 80%;	   
+		height: 60%;	   
 	}
 	
 	.msj{
-		font-size: 23px;
-		height: 35px;
+		font-size: 14px;
+		height: 30px;
 	}
 	
 	.opcion{    
-		width: 53px;
-		height: 53px;
+		width: 33px;
+		height: 33px;
 		border: 0.6px solid  #000;
-		font-size: 30px;
-		margin-bottom: 13px;
+		font-size: 18px;
+		margin-bottom: 5px;
 	}
 }
